@@ -17,14 +17,17 @@ function rec(obj, gen=0){
 }
 ```
 ```r
-aitem
-  aaitem
-    aaaitem
+aitem - {
+  aaitem - {
+    aaaitem - {
       twok - 2000
-      array - 0,0,0
+      array - {
+        0 - 0
+        1 - 0
+        2 - 0
     aaaitem2 - hai
   aaitem2 - hi
-bitem
+bitem - {
   bbitem - think
 citem - 17
 ```
