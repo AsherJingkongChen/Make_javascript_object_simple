@@ -18,7 +18,7 @@ function rec(obj, gen=0){
   }
 }
 ```
-```bash
+```ruby
 aitem
   aaitem
     aaaitem
