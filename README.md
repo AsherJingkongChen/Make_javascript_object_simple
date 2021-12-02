@@ -1,4 +1,6 @@
 ## Prettify Javascript's object
+
+__You can use JSON.stringify(obj, null, 2) instead__
 ```javascript
 function rec(obj, gen=0){
   strip=""
